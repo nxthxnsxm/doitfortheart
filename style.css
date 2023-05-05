@@ -1,0 +1,196 @@
+/* Section for styling page */
+
+/* everything on the page has a margin and the font "Tahoma" */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+
+/*setting the page to grey as a background color*/
+
+.page{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Shop.jpg);
+    /*background-color: grey;*/
+    background-size: cover;
+    background-position: center;
+}
+
+/* logo class with it's attributes */
+
+.logo{
+    float: left;
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/* navigation bar and it's attributes */
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+/* the list of links in the navigation bar with styling features */
+
+.navbar ul li{
+    list-style: none; 
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    padding-right: 18px;
+    margin-top: 10px;
+}
+
+
+/* the links in the navigation bar with styling features */
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* the BOOK NOW button */
+
+#book_now{
+    background-color: green;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    float: right;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 0 25px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+/* the SHOP NOW button */
+
+#shop_now{
+    background-color: red;
+    width: 80px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    float: right;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+
+
+}
+
+
+
+/* information on the Home Page is to be centralised */
+
+.info{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+/* styling of the heading for the information */
+.info h1{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+/* styling for the button "BOOK NOW"*/
+
+button{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin:10px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border:2px solid;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+/*      #######################         PRICELIST STYLING          ####################              */
+
+
+
+ h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+/* confirm the dimensions of the area underneath pricelist into ratio 1:1*/
+
+.pricelist_section{
+    width: 100%;
+    min-height:600px;
+    background-color: green;
+    display: flex;
+}
+
+
+
+.services{
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    padding: 8px;
+    margin: 0 30%;
+    margin-top: 40px;
+    border:2px solid;
+    border-radius: 5px;
+    border-color: white;
+}
+
+
+
+
+.services h2{
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.services span{
+    color: red;
+    float: right;
+    padding-top: 5px;
+    font-weight: bold;
+
+}
+
+.services h3{
+    color: grey;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
